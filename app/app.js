@@ -41,7 +41,8 @@ app.use(express.static(__dirname + '/public'));
 var appEnv = cfenv.getAppEnv();
 
 // We want to extract the port to publish our app on
-var port = appEnv.PORT || 8080;
+var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080,
+    ip   = process.env.IP   || process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0'
 
 // get our app functions
 var functions = require('./functions.js');
