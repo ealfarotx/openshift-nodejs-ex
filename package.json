@@ -11,7 +11,15 @@
     "mocha": "^2.4.5",
     "mongodb": "^2.1.16",
     "morgan": "^1.7.0",
-    "object-assign": "4.1.0"
+    "object-assign": "4.1.0",
+    "body-parser": "^1.15.2",
+    "cfenv": "1.0.x",
+    "elasticsearch": "*",
+    "get-json": "0.0.3",
+    "http-post": "^0.1.1",
+    "http-proxy": "^1.8.1",
+    "pug": "2.0.0-alpha6",
+    "yargs": "^10.1.1"
   },
   "engine": {
     "node": "*",
@@ -19,7 +27,7 @@
   },
   "scripts": {
     "start": "node server.js",
-    "test": "IP=0.0.0.0 PORT=3030 mocha --timeout 5000 tests/*_test.js"
+    "test": "IP=0.0.0.0 PORT=3030 mocha --timeout 5000 app/app.js"
   },
   "repository": {
     "type": "git",
