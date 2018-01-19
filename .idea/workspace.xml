@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b9122be-970d-4303-b82e-34a1a1d45541" name="Default" comment="Remove HTML node_modules_orig">
+    <list default="true" id="5b9122be-970d-4303-b82e-34a1a1d45541" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -175,7 +175,7 @@
       <workItem from="1516140303385" duration="4000" />
       <workItem from="1516198922234" duration="25000" />
       <workItem from="1516198997471" duration="67000" />
-      <workItem from="1516372353085" duration="263000" />
+      <workItem from="1516372353085" duration="270000" />
     </task>
     <task id="LOCAL-00001" summary="Remove HTML files">
       <created>1516372414680</created>
@@ -191,11 +191,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516372593785</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Remove HTML node_modules_orig">
+      <created>1516372618453</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1516372618453</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1486000" />
+    <option name="totallyTimeSpent" value="1493000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="23" width="1633" height="1027" extended-state="6" />
